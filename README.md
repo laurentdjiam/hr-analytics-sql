@@ -1,4 +1,4 @@
-# 📊 HR Analytics SQL — 27 KPI RH complets
+#  HR Analytics SQL — 27 KPI RH complets
 
 > **Analyse SQL approfondie des Ressources Humaines** · 27 requêtes couvrant turnover, absentéisme, performance, rémunération et promotion · Idéal pour piloter la fonction RH avec de la data.
 
@@ -8,7 +8,7 @@
 
 ---
 
-## 🎯 Contexte
+##  Contexte
 
 Projet d'analyse RH d'une entreprise fictive — démonstration de l'étendue possible de **SQL analytique** pour piloter la fonction RH : turnover, absentéisme, performance, rémunération, cohortes d'embauche.
 
@@ -20,7 +20,7 @@ Projet d'analyse RH d'une entreprise fictive — démonstration de l'étendue po
 
 ---
 
-## 🏗️ Modèle de données
+##  Modèle de données
 
 **Schéma** : 5 tables principales couvrant les dimensions RH classiques
 
@@ -55,11 +55,11 @@ evaluations_performance
 
 ---
 
-## 📊 Les 27 requêtes SQL
+##  Les 27 requêtes SQL
 
 Les requêtes sont organisées en **5 thématiques** :
 
-### 🔁 1. Turnover & Rétention (6 requêtes)
+###  1. Turnover & Rétention (6 requêtes)
 - Taux de turnover annuel
 - Turnover par département
 - Durée moyenne dans l'entreprise
@@ -67,14 +67,14 @@ Les requêtes sont organisées en **5 thématiques** :
 - Détection des signaux faibles de départ
 - Top 10 des départements les plus volatiles
 
-### 📉 2. Absentéisme (5 requêtes)
+###  2. Absentéisme (5 requêtes)
 - Taux d'absentéisme global
 - Jours moyens absents par employé
 - Pics saisonniers d'absence
 - Absences par type (maladie, congé, formation)
 - Corrélation absence / performance
 
-### ⭐ 3. Performance (6 requêtes)
+###  3. Performance (6 requêtes)
 - Note moyenne par département
 - Évolution de la note par employé (LAG)
 - Top 10 performers
@@ -89,7 +89,7 @@ Les requêtes sont organisées en **5 thématiques** :
 - Évolution des rémunérations dans le temps
 - Augmentation moyenne annuelle
 
-### 🚀 5. Promotion & Carrière (5 requêtes)
+###  5. Promotion & Carrière (5 requêtes)
 - Taux de promotion par département
 - Délai moyen avant promotion
 - Impact promotion sur rétention
@@ -98,7 +98,7 @@ Les requêtes sont organisées en **5 thématiques** :
 
 ---
 
-## 💡 Techniques SQL utilisées
+##  Techniques SQL utilisées
 
 Ce projet mobilise des **techniques SQL avancées** :
 
@@ -113,7 +113,7 @@ Ce projet mobilise des **techniques SQL avancées** :
 
 ---
 
-## 💡 Insights business identifiés
+##  Insights business identifiés
 
 En exploitant ces 27 requêtes, 5 insights émergent :
 
@@ -125,7 +125,7 @@ En exploitant ces 27 requêtes, 5 insights émergent :
 
 ---
 
-## 📁 Structure du repo
+##  Structure du repo
 
 ```
 hr-analytics-sql/
@@ -139,7 +139,7 @@ hr-analytics-sql/
 
 ---
 
-## 🚀 Comment utiliser le projet
+##  Comment utiliser le projet
 
 ### Pré-requis
 - PostgreSQL 12+ (ou tout SGBD compatible SQL standard)
@@ -168,7 +168,7 @@ psql -U votre_user -d votre_db -f HR_Analytics_Script.sql
 
 ---
 
-## 🎓 Usage pédagogique
+##  Usage pédagogique
 
 Ce projet est conçu pour :
 - **Étudiants Data** : cas pratique SQL analytique sur un cas métier concret
@@ -183,7 +183,7 @@ Ce projet est conçu pour :
 
 ---
 
-## 👨‍💻 Auteur
+##  Auteur
 
 **Laurent NZWENJA DJIAM**
 Data Analyst · Analytics Engineer · Consultant Power BI
@@ -196,7 +196,7 @@ Data Analyst · Analytics Engineer · Consultant Power BI
 
 ---
 
-## 📜 Licence
+##  Licence
 
 Projet open-source sous licence **MIT** — libre d'utilisation, modification, redistribution pour vos propres projets pédagogiques ou professionnels.
 
